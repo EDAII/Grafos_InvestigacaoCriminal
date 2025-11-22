@@ -1,27 +1,38 @@
-# Repositório Template
-Repositório de Template para os projetos da disciplina 
-```
-Nome do Repositório (Apague este tópico)
-  O nome do repositório deve seguir o padrão <TemaProjeto>_<Nome Projeto>.
-  O nome do projeto deve representar o que foi implementado no mesmo (Ex:
-  Game xyz, Implementações Otimizadas de Algoritmos, Aplicativo xpto)
+# Grafo_InvestigacaoCriminal
 
-Os temas de projeto são:  
- - Busca - Algoritmos de busca  
- - Ord_quad - Algoritmos de ordenação O(n²)  
- - Ord_nlogn - Algoritmos de ordenação O(n*log(n))  
- - Arv - Algoritmos de manipulação de Árvores  
- - Grafo - Algoritmos de manipulação de Grafos  
- 
- Ex: Busca_ConcorrenteDaGoogle
-```
-## Alunos  
-| Matrícula | Nome |  
-|-----------------------|---------------------|  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
+Sistema de investigação criminal usando algoritmos de busca em grafos (BFS e DFS).
+
+## Alunos
+| Matrícula | Nome |
+|-----------|------|
+| 21/1031593 | Andre Lopes de Sousa |
+| 23/1012129 | Gabriel Lopes de Amorim |
+
 ## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
+
+Sistema de investigação criminal desenvolvido em Python para terminal que utiliza algoritmos de busca em grafos (BFS e DFS) para rastrear redes criminosas. O jogador assume o papel de um detetive que deve identificar conexões entre suspeitos e resolver casos criminais.
+
+### Algoritmos implementados
+
+BFS (Busca em Largura)
+- Encontra o caminho mais curto entre dois suspeitos na rede
+- Explora nível por nível (todos os vizinhos antes de aprofundar)
+- Útil para identificar conexões diretas e rotas mais rápidas
+- Implementação com fila
+
+DFS (Busca em Profundidade)
+- Mapeia toda a rede criminosa conectada a um suspeito
+- Explora o máximo possível antes de retroceder
+- Útil para descobrir toda a organização criminal
+- Implementação recursiva
+
+### Funcionalidades
+
+- 3 casos criminais diferentes.
+- Sistema de pontuação e missões.
+- Visualização de suspeitos e suas conexões.
+- Execução dos algoritmos.
+
 ## Guia de instalação
 Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
 ### Dependências do projeto
