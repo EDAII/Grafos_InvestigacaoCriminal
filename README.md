@@ -76,7 +76,7 @@ Navegue pelos menus usando os números e pressione Enter.
 - DFS (rede completa): 75 pontos
 - Resolver caso completo: 150 pontos
 
-## Casos disponíveis
+### Casos disponíveis
 
 1. Operação Serpente Negra: rede de trafico de drogas (8 suspeitos)
 2. Operação Lava Jato Local: esquema de lavagem de dinheiro (6 suspeitos)
