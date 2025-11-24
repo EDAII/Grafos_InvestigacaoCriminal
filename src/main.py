@@ -35,3 +35,28 @@ class Grafo:
     def marcar_investigado(self, suspeito_id):
         if suspeito_id in self.suspeitos:
             self.suspeitos[suspeito_id]['investigado'] = True
+
+# busca em largura, para encontrar o caminho mais curto
+def bfs(grafo, inicio, objetivo=None):   
+    visitados = set()
+    fila = deque([(inicio, [inicio])])
+    ordem_visita = []
+
+    while fila:
+        atual, caminho = fila.popleft()
+
+        if atual in visitados:
+            continue
+
+        visitados.add(atual)
+        ordem_visita.append(atual)
+        grafo.marcar_investigado(atual)
+
+        if objetivo and atual == objetivo:
+            return caminho, ordem_visita
+
+        for vizinho in grafo.obter_vizinhos(atual):
+            if vizinho['id'] not in visitados:
+                fila.append((vizinho['id'], caminho + [vizinho['id']]))
+
+    return None, ordem_visita
