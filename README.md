@@ -10,7 +10,7 @@ Sistema de investigação criminal usando algoritmos de busca em grafos (BFS e D
 
 ## Descrição do projeto
 
-Sistema de investigação criminal desenvolvido em Python para terminal que utiliza algoritmos de busca em grafos (BFS e DFS) para rastrear redes criminosas. O jogador assume o papel de um detetive que deve identificar conexões entre suspeitos e resolver casos criminais.
+Sistema de investigação criminal desenvolvido em Python para terminal que utiliza algoritmos de busca em grafos (BFS e DFS) para rastrear redes criminosas. O usuário assume o papel de um detetive que deve identificar conexões entre suspeitos e resolver casos criminais.
 
 ### Algoritmos implementados
 
