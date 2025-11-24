@@ -1,6 +1,6 @@
 # Grafo_InvestigacaoCriminal
 
-Sistema de investigação criminal usando algoritmos de busca em grafos (BFS e DFS).
+Jogo simples de investigação criminal usando algoritmos de busca em grafos (BFS e DFS).
 
 ## Alunos
 | Matrícula | Nome |
@@ -10,7 +10,7 @@ Sistema de investigação criminal usando algoritmos de busca em grafos (BFS e D
 
 ## Descrição do projeto
 
-Sistema de investigação criminal desenvolvido em Python para terminal que utiliza algoritmos de busca em grafos (BFS e DFS) para rastrear redes criminosas. O usuário assume o papel de um detetive que deve identificar conexões entre suspeitos e resolver casos criminais.
+Jogo de investigação criminal desenvolvido em Python para terminal que utiliza algoritmos de busca em grafos (BFS e DFS) para rastrear redes criminosas. O jogador assume o papel de um detetive que deve identificar conexões entre suspeitos e resolver casos criminais.
 
 ### Algoritmos implementados
 
@@ -83,10 +83,51 @@ Navegue pelos menus usando os números e pressione Enter.
 3. Operação Mão Limpa: rede de corrupção política (7 suspeitos)
 
 ## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
+
+### Menu Principal
+![Menu Principal](/assets/img/menu.png)
+
+O menu principal apresenta todas as funcionalidades do game.
+
+### Casos - Informações sobre os casos e Opções de Investigação
+![opções de investigação](/assets/img/opcoes_invest.png)
+
+### Casos - Visualizar todos os suspeitos
+![opções de investigação](/assets/img/c1_opção1.png)
+
+### Casos - Visualizar conexões de um suspeitos
+![opções de investigação](/assets/img/c1_opção2.png)
+
+Mostra todas as conexões de um suspeito.
+
+### Casos - Executar BFS
+![opções de investigação](/assets/img/c1_opção3.png)
+
+Executa BFS para encontrar caminho mais curto entre os suspeitos.
+
+### Casos - Executar DFS
+![opções de investigação](/assets/img/c1_opção4.png)
+
+Executa DFS para mapear toda a rede criminosa.
+
+### Casos - Resolver casos
+![opções de investigação](/assets/img/c1_opção5.png)
+
+Executa ambas as buscas para resolver o caso.
+
+### Casos - Visualizar estatísticas
+![opções de investigação](/assets/img/estatisticas.png)
+
 ## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
+Os algoritmos BFS e DFS foram extremamente úteis para a identificação de conexões. BFS é ideal quando precisamos do caminho mais curto, enquanto DFS é melhor para mapear toda a estrutura da rede.
+
+No contexto do jogo, a combinação de ambos algoritmos permitiu tanto encontrar rotas diretas entre suspeitos quanto mapear toda a organização criminosa.
+## Vídeo de Apresentação
+
+Aqui está o vídeo de apresentação do projeto:
+
+[Link para o vídeo](https://youtu.be/)
+
 ## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+- Algoritmos de grafos: material da disciplina disponibilizado pelo professor.
+- Python collections.deque: https://docs.python.org/3/library/collections.html#collections.deque
