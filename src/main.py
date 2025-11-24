@@ -88,3 +88,19 @@ def dfs(grafo, inicio, objetivo=None, visitados=None, caminho=None, ordem_visita
     if objetivo:
         return None, ordem_visita
     return caminho, ordem_visita
+
+
+# missoes
+
+class SistemaMissoes:
+    def __init__(self):
+        self.pontos = 0
+        self.missoes_completadas = 0
+        self.casos_resolvidos = []
+
+    def adicionar_pontos(self, pontos):
+        self.pontos += pontos
+
+    def completar_missao(self, nome_missao):
+        self.missoes_completadas += 1
+        self.casos_resolvidos.append(nome_missao)
