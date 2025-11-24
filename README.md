@@ -34,9 +34,54 @@ DFS (Busca em Profundidade)
 - Execução dos algoritmos.
 
 ## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
+
 ### Dependências do projeto
+
+- Python 3.6 ou superior
+- Bibliotecas padrão: `collections`, `os`, `time`
+
 ### Como executar o projeto
+
+1. Clone ou baixe o repositório:
+```bash
+https://github.com/EDAII/Grafos_InvestigacaoCriminal
+```
+
+2. Entre na pasta do projeto:
+```bash
+cd src/
+```
+
+3. Execute o arquivo python
+```bash
+python3 main.py
+```
+
+Navegue pelos menus usando os números e pressione Enter.
+
+### Como jogar
+
+1. Escolha um dos 3 casos disponíveis no menu principal
+2. Dentro do caso, você pode:
+   - Visualizar todos os suspeitos
+   - Ver conexões específicas entre pessoas
+   - Executar BFS para encontrar caminho mais curto
+   - Executar DFS para mapear rede completa
+   - Resolver o caso automaticamente (executa ambos algoritmos)
+3. Acumule pontos resolvendo casos
+
+### Sistema de pontuação
+
+- BFS (caminho mais curto): 50 pontos
+- DFS (rede completa): 75 pontos
+- Resolver caso completo: 150 pontos
+
+## Casos disponíveis
+
+1. Operação Serpente Negra: rede de trafico de drogas (8 suspeitos)
+2. Operação Lava Jato Local: esquema de lavagem de dinheiro (6 suspeitos)
+3. Operação Mão Limpa: rede de corrupção política (7 suspeitos)
+
 ## Capturas de tela
 Neste tópico você deve adicionar imagens do funcionamento do projeto.  
  - As imagens devem ser salvas no repositório.
