@@ -36,7 +36,7 @@ class Grafo:
         if suspeito_id in self.suspeitos:
             self.suspeitos[suspeito_id]['investigado'] = True
 
-# busca em largura, para encontrar o caminho mais curto
+#busca em largura, para encontrar o caminho mais curto
 def bfs(grafo, inicio, objetivo=None):   
     visitados = set()
     fila = deque([(inicio, [inicio])])
@@ -60,3 +60,31 @@ def bfs(grafo, inicio, objetivo=None):
                 fila.append((vizinho['id'], caminho + [vizinho['id']]))
 
     return None, ordem_visita
+
+#busca em profundidade, para explorar todo o grafo(rede)
+def dfs(grafo, inicio, objetivo=None, visitados=None, caminho=None, ordem_visita=None):
+    if visitados is None:
+        visitados = set()
+    if caminho is None:
+        caminho = [inicio]
+    if ordem_visita is None:
+        ordem_visita = []
+
+
+    visitados.add(inicio)
+    ordem_visita.append(inicio)
+    grafo.marcar_investigado(inicio)
+
+    if objetivo and inicio == objetivo:
+        return caminho, ordem_visita
+
+    for vizinho in grafo.obter_vizinhos(inicio):
+        if vizinho['id'] not in visitados:
+            resultado = dfs(grafo, vizinho['id'], objetivo, visitados,
+                          caminho + [vizinho['id']], ordem_visita)
+            if objetivo and resultado[0]:
+                return resultado
+
+    if objetivo:
+        return None, ordem_visita
+    return caminho, ordem_visita
