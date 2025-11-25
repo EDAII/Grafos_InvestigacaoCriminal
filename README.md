@@ -126,7 +126,7 @@ No contexto do jogo, a combinação de ambos algoritmos permitiu tanto encontrar
 
 Aqui está o vídeo de apresentação do projeto:
 
-[Link para o vídeo](https://youtu.be/)
+[Link para o vídeo](https://youtu.be/FSy255lcWx0)
 
 ## Referências
 - Algoritmos de grafos: material da disciplina disponibilizado pelo professor.
