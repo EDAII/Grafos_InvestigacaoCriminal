@@ -85,38 +85,38 @@ Navegue pelos menus usando os números e pressione Enter.
 ## Capturas de tela
 
 ### Menu Principal
-![Menu Principal](/assets/img/menu.png)
+![Menu Principal](/assets/img/imagem7.png)
 
 O menu principal apresenta todas as funcionalidades do game.
 
 ### Casos - Informações sobre os casos e Opções de Investigação
-![opções de investigação](/assets/img/opcoes_invest.png)
+![opções de investigação](/assets/img/imagem8.png)
 
 ### Casos - Visualizar todos os suspeitos
-![opções de investigação](/assets/img/c1_opção1.png)
+![opções de investigação](/assets/img/imagem1.png)
 
 ### Casos - Visualizar conexões de um suspeitos
-![opções de investigação](/assets/img/c1_opção2.png)
+![opções de investigação](/assets/img/imagem2.png)
 
 Mostra todas as conexões de um suspeito.
 
 ### Casos - Executar BFS
-![opções de investigação](/assets/img/c1_opção3.png)
+![opções de investigação](/assets/img/imagem3.png)
 
 Executa BFS para encontrar caminho mais curto entre os suspeitos.
 
 ### Casos - Executar DFS
-![opções de investigação](/assets/img/c1_opção4.png)
+![opções de investigação](/assets/img/imagem4.png)
 
 Executa DFS para mapear toda a rede criminosa.
 
 ### Casos - Resolver casos
-![opções de investigação](/assets/img/c1_opção5.png)
+![opções de investigação](/assets/img/imagem5.png)
 
 Executa ambas as buscas para resolver o caso.
 
 ### Casos - Visualizar estatísticas
-![opções de investigação](/assets/img/estatisticas.png)
+![opções de investigação](/assets/img/imagem6.png)
 
 ## Conclusões
 Os algoritmos BFS e DFS foram extremamente úteis para a identificação de conexões. BFS é ideal quando precisamos do caminho mais curto, enquanto DFS é melhor para mapear toda a estrutura da rede.
